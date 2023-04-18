@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+body {
+    background-color: #f9f7f0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 50px 100px;
+    border-bottom: 0.5px solid #2e2e27;
+  
+
+}
+
+/* NAV BAR */
+
+
+.menu-left {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.nav-links, li, a {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+     
+    }
+
+.logo-cta { 
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    order: 3;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* content */
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    margin: 10px 40px 40px;
+    padding: 100px;
+}
+
+.copy{
+    background: #e9e6dc;
+    border: 0.5px solid #2e2e27;
+    border-radius: 40px;
+    padding: 30px;
+    margin: 20px;
+    
+}
+
+h1 {
+    color: #111;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+
+}
+
+p {
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    font-family: 'Montserrat', sans-serif;
+}

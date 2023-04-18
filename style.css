@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #000;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 50px 100px;
+
+}
+
+.menu-left {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFBEB;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.nav-links, li, a {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFBEB;
+    text-decoration: none;
+    text-transform: uppercase;
+     
+    }
+
+.logo-cta { 
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    order: 3;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+body {
+    width: auto;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;   /* CHECK*/
+
+}
+
+.marquee {
+    width: 100%;
+    padding-left: 4em;
+    margin: 0 auto;
+    white-space: nowrap; /* CHECK*/
+    overflow: hidden; /* CHECK*/
+}
+
+.marquee span {
+    font-family: "sigurd", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: beige;
+    font-size: 28em;
+    text-transform: uppercase; /* up low */
+    display: inline-block;
+    padding-top: 90px;
+    padding-left: -10%;
+    animation: marquee-animation 90s linear infinite;
+}
+
+/* CHECK*/
+@keyframes marquee-animation {
+    0% {
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-100%, 0);
+    }
+}
+
